@@ -1,0 +1,92 @@
+{
+  "store_closures_historical": {
+    "description": "Annual store closure data from 2015-2025",
+    "key_fields": [
+      "Year",
+      "Total_Store_Closures",
+      "Independent_Store_Closures",
+      "Chain_Store_Closures",
+      "Daily_Average_Closures"
+    ],
+    "use_cases": [
+      "Trend analysis",
+      "Closure prediction",
+      "Impact assessment"
+    ],
+    "data_quality": "High - based on ONS and industry reports"
+  },
+  "employment_historical": {
+    "description": "Retail employment statistics 2015-2025",
+    "key_fields": [
+      "Total_Retail_Employment_Millions",
+      "Full_Time_Jobs_Millions",
+      "Part_Time_Jobs_Millions",
+      "Average_Retail_Wage_GBP"
+    ],
+    "use_cases": [
+      "Workforce planning",
+      "Skills analysis",
+      "Economic impact"
+    ],
+    "data_quality": "High - ONS Labour Market Statistics"
+  },
+  "ecommerce_historical": {
+    "description": "E-commerce growth and market data 2015-2025",
+    "key_fields": [
+      "Online_Share_Percentage",
+      "Market_Value_Billions_GBP",
+      "Total_Online_Users_Millions",
+      "Mobile_Commerce_Share"
+    ],
+    "use_cases": [
+      "Digital transformation analysis",
+      "Market sizing",
+      "Channel optimization"
+    ],
+    "data_quality": "High - ONS Retail Sales + industry data"
+  },
+  "regional_analysis": {
+    "description": "Regional breakdown of retail transformation impact",
+    "key_fields": [
+      "Region",
+      "Store_Closures_2024",
+      "Employment_Change_Percentage",
+      "High_Street_Vacancy_Rate"
+    ],
+    "use_cases": [
+      "Geographic analysis",
+      "Location intelligence",
+      "Regional policy"
+    ],
+    "data_quality": "Medium-High - aggregated from multiple sources"
+  },
+  "business_type_analysis": {
+    "description": "Analysis by retail business category/type",
+    "key_fields": [
+      "Business_Type",
+      "Survival_Rate_Percentage",
+      "Online_Transition_Success",
+      "Employment_Impact_Per_Closure"
+    ],
+    "use_cases": [
+      "Sector analysis",
+      "Risk assessment",
+      "Business strategy"
+    ],
+    "data_quality": "Medium - industry estimates and surveys"
+  },
+  "future_forecasts": {
+    "description": "Predictive forecasts for UK retail 2026-2030",
+    "key_fields": [
+      "Store_Closures_Forecast",
+      "Retail_Employment_Millions",
+      "Ecommerce_Market_Value_Billions_GBP"
+    ],
+    "use_cases": [
+      "Strategic planning",
+      "Investment decisions",
+      "Policy development"
+    ],
+    "data_quality": "Medium - model-based predictions"
+  }
+}
